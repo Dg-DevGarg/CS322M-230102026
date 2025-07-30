@@ -1,0 +1,56 @@
+$date
+    Jul 30, 2025  13:39:48
+$end
+$version
+    TOOL:	xmsim	23.09-s001
+$end
+$timescale
+    1 ns
+$end
+
+$scope module tb $end
+$var reg       4 !    A [3:0] $end
+$var reg       4 "    B [3:0] $end
+$var wire      1 #    result  $end
+
+$scope module duut $end
+$var wire      4 $    A [3:0] $end
+$var wire      4 %    B [3:0] $end
+$var wire      1 #    result  $end
+$upscope $end
+
+$upscope $end
+
+$enddefinitions $end
+$dumpvars
+b0 !
+b0 "
+1#
+b0 $
+b0 %
+$end
+#15
+b1010 !
+b1010 "
+b1010 %
+b1010 $
+#30
+b1110 !
+b0 "
+b0 %
+b1110 $
+0#
+#45
+b1100 !
+b1100 "
+b1100 %
+b1100 $
+1#
+#60
+b1011 !
+b1011 "
+b1011 %
+b1011 $
+#75
+b1000 !
+b1001 "
