@@ -44,8 +44,8 @@ This cycle repeats continuously.
 
 ## Simulation Commands
 ```bash
-iverilog -o seq_test tb.v seq_detect_mealy.v
-vvp seq_test
-gtkwave wave1.vcd
+iverilog -o iverilog -o traf_ligh tb2.v traffic_light.v
+vvp traf_ligh
+gtkwave wave2.vcd
 
 
