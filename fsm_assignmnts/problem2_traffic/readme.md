@@ -15,7 +15,7 @@
 
 ---
 
-## 🚦 Traffic Light Timing
+## Traffic Light Timing
 The controller follows a **5 / 2 / 5 / 2 tick sequence**:
 
 | Phase        | Duration (ticks) |
