@@ -22,7 +22,7 @@ Thus, Mealy FSM provides **efficient, real-time response** in coin detection and
 
 ---
 
-## 🔄 State Encoding
+##  State Encoding
 - `S0` → 0 inserted  
 - `S1` → 5 inserted  
 - `S2` → 10 inserted  
@@ -56,5 +56,12 @@ Thus, Mealy FSM provides **efficient, real-time response** in coin detection and
   - When an extra ₹10 is inserted at S3 (i.e., 25 total).  
 
 ---
+
+## Simulation Commands
+```bash
+iverilog -o  iverilog -o vending vending_mealy.v tb3.v
+vvp vending
+gtkwave wave3.vcd
+
 
 
