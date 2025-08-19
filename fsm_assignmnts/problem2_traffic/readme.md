@@ -41,7 +41,11 @@ This cycle repeats continuously.
 ---
 
 
-## 📂 Files
-- `traffic_light.v` → DUT (Device Under Test)
-- `tb2.v` → Testbench
-- `wave2.vcd` → Simulation waveform output
+
+## Simulation Commands
+```bash
+iverilog -o seq_test tb.v seq_detect_mealy.v
+vvp seq_test
+gtkwave wave1.vcd
+
+
